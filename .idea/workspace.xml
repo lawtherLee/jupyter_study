@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a10cc79-62fa-4aad-a4b3-96885b5e7c5a" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jupyter_study.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ndarray.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numpy属性.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numpy常用函数.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1960-2019全球GDP数据.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/city_day.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/csv示例文件.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/directory.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/movie.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/stock_day.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/uniqlo.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pandas/index.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jupyter_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jupyter_study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ndarray.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/numpy/ndarray.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpy属性.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/numpy/numpy属性.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpy常用函数.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/numpy/numpy常用函数.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +45,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8,
-  "fromUser": false
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lawtherLee&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:lawtherLee/jupyter_study.git&quot;,
+    &quot;accountId&quot;: &quot;023d180f-4aae-45d4-800b-e11ede0e41ff&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3Bk6Jt5TZejT8okC58EKkxOzJTx" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -60,21 +78,27 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "javascript.preferred.runtime.type.id": "node",
-    "last_opened_file_path": "/Users/apple/Desktop/Playground/jupyter_study",
+    "last_opened_file_path": "D:/study_file/jupyter_study/data",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study_file\jupyter_study\data" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\study_file\jupyter_study\numpy" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3bd3a6803838-JavaScript-PY-261.22158.340" />
         <option value="bundled-python-sdk-b63d5a1f7c97-b61e75351b1f-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.22158.340" />
       </set>
     </attachedChunks>
@@ -87,6 +111,8 @@
       <option name="presentableId" value="Default" />
       <updated>1775020651871</updated>
       <workItem from="1775020652917" duration="27330000" />
+      <workItem from="1775382649650" duration="2295000" />
+      <workItem from="1775443045073" duration="4248000" />
     </task>
     <servers />
   </component>
