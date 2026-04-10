@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a10cc79-62fa-4aad-a4b3-96885b5e7c5a" name="更改" comment="pandas">
-      <change afterPath="$PROJECT_DIR$/numpy/01_numpy属性介绍.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numpy/01_numpy的属性介绍.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numpy/02_创建ndarray对象.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numpy/03_numpy常用函数介绍.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pandas/01_panda初体验.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pandas/02_Pandas的数据结构和数据类型.ipynb" afterDir="false" />
+    <list default="true" id="0a10cc79-62fa-4aad-a4b3-96885b5e7c5a" name="更改" comment="pandas基本数据操作和运算">
+      <change afterPath="$PROJECT_DIR$/pandas/05_Pandas读写数据.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pandas/06_pandas读写SQL表.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pandas/07_pandas操作df_增删改查.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jupyter_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jupyter_study.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numpy/ndarray.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/numpy/numpy属性.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/numpy/numpy常用函数.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pandas/index.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pandas/04_Pandas的基本运算.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pandas/04_Pandas的基本运算.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +41,12 @@
     &quot;assignee&quot;: &quot;lawtherLee&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:lawtherLee/jupyter_study.git&quot;,
-    &quot;accountId&quot;: &quot;023d180f-4aae-45d4-800b-e11ede0e41ff&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:lawtherLee/jupyter_study.git",
+    "accountId": "ba772649-abd3-4c66-92cb-be2926c7b3ff"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8,
   &quot;fromUser&quot;: false
@@ -64,25 +59,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "javascript.preferred.runtime.type.id": "node",
-    "last_opened_file_path": "D:/study_file/jupyter_study",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/apple/Desktop/Playground/jupyter_study/pandas&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pandas" />
       <recent name="D:\study_file\jupyter_study" />
       <recent name="D:\study_file\jupyter_study\data" />
       <recent name="$PROJECT_DIR$" />
@@ -94,7 +95,6 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3bd3a6803838-JavaScript-PY-261.22158.340" />
         <option value="bundled-python-sdk-b63d5a1f7c97-b61e75351b1f-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.22158.340" />
       </set>
     </attachedChunks>
@@ -110,6 +110,7 @@
       <workItem from="1775382649650" duration="2295000" />
       <workItem from="1775443045073" duration="4248000" />
       <workItem from="1775544845670" duration="273000" />
+      <workItem from="1775801261245" duration="8750000" />
     </task>
     <task id="LOCAL-00001" summary="pandas">
       <option name="closed" value="true" />
@@ -119,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775545101354</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="pandas基本数据操作和运算">
+      <option name="closed" value="true" />
+      <created>1775725917107</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1775725917107</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +136,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pandas" />
-    <option name="LAST_COMMIT_MESSAGE" value="pandas" />
+    <MESSAGE value="pandas基本数据操作和运算" />
+    <option name="LAST_COMMIT_MESSAGE" value="pandas基本数据操作和运算" />
   </component>
 </project>
