@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a10cc79-62fa-4aad-a4b3-96885b5e7c5a" name="更改" comment="matplotlib绘图">
-      <change afterPath="$PROJECT_DIR$/RFM案例/01_RFM会员价值度预估模型.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RFM案例/02_扩展_Pandas_Seaborn绘图.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RFM案例/data/sale_rfm_group.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RFM案例/data/sales.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RFM案例/data/winemag-data_first150k.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RFM案例/index.ipynb" afterDir="false" />
+    <list default="true" id="0a10cc79-62fa-4aad-a4b3-96885b5e7c5a" name="更改" comment="RFM案例">
+      <change afterPath="$PROJECT_DIR$/章节测试/第一题.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/章节测试/第三题.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/章节测试/第二题.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RFM案例/01_RFM会员价值度预估模型.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/RFM案例/01_RFM会员价值度预估模型.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RFM案例/data/sale_rfm_group.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RFM案例/index.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +91,7 @@
       <recent name="D:\study_file\jupyter_study\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/章节测试" />
       <recent name="D:\study_file\jupyter_study\numpy" />
     </key>
   </component>
@@ -135,7 +136,7 @@
       <workItem from="1776239777953" duration="604000" />
       <workItem from="1776240399482" duration="368000" />
       <workItem from="1776240790939" duration="505000" />
-      <workItem from="1776241322772" duration="4342000" />
+      <workItem from="1776241322772" duration="16039000" />
     </task>
     <task id="LOCAL-00001" summary="pandas">
       <option name="closed" value="true" />
@@ -193,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776217339101</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="RFM案例">
+      <option name="closed" value="true" />
+      <created>1776245904101</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1776245904102</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,22 +227,7 @@
     <MESSAGE value="pandas数据合并" />
     <MESSAGE value="pandas分组聚合操作" />
     <MESSAGE value="matplotlib绘图" />
-    <option name="LAST_COMMIT_MESSAGE" value="matplotlib绘图" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>file://$PROJECT_DIR$/RFM案例/index.ipynb</url>
-          <line>1</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>file://$PROJECT_DIR$/RFM案例/index.ipynb</url>
-          <line>68</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="RFM案例" />
+    <option name="LAST_COMMIT_MESSAGE" value="RFM案例" />
   </component>
 </project>
