@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a10cc79-62fa-4aad-a4b3-96885b5e7c5a" name="更改" comment="RFM案例,测试">
+    <list default="true" id="0a10cc79-62fa-4aad-a4b3-96885b5e7c5a" name="更改" comment="seaborn绘图">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RFM案例/02_扩展_Pandas_Seaborn绘图.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/matplotlib/02_扩展_Pandas_Seaborn绘图.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/02_扩展_Pandas_Seaborn绘图.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/matplotlib/02_扩展_Pandas_Seaborn绘图.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +132,7 @@
       <workItem from="1776239777953" duration="604000" />
       <workItem from="1776240399482" duration="368000" />
       <workItem from="1776240790939" duration="505000" />
-      <workItem from="1776241322772" duration="21248000" />
+      <workItem from="1776241322772" duration="28292000" />
     </task>
     <task id="LOCAL-00001" summary="pandas">
       <option name="closed" value="true" />
@@ -206,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776325010120</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="seaborn绘图">
+      <option name="closed" value="true" />
+      <created>1776332093607</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1776332093607</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +241,7 @@
     <MESSAGE value="matplotlib绘图" />
     <MESSAGE value="RFM案例" />
     <MESSAGE value="RFM案例,测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="RFM案例,测试" />
+    <MESSAGE value="seaborn绘图" />
+    <option name="LAST_COMMIT_MESSAGE" value="seaborn绘图" />
   </component>
 </project>
